@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(211, 211, 211);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+   }
+    
+nav{
+    background: black;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Times;
+} 
+
+.logo{
+letter-spacing: 4px;
+}
+
+.barranav{
+    list-style: none;
+    display: flex;
+}
+
+.barranav li {
+    margin-left: 32px;
+    letter-spacing: 2px;
+}
+
+.conteudo{
+    margin-top: 25vh; 
+    margin-left: 25vh;
+    letter-spacing: 2px;
+}
+.conteudo h1{
+    font-family: Verdana;
+}
+
+.conteudo p{
+    font-family: verdana;
+}
+
+img{
+    width: 60vh;
+    margin-left: 110vh;
+    margin-top: -35vh;
+
+}
+
+
+
+
+
+
